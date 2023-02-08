@@ -90,11 +90,11 @@ export default function Home() {
           height={50}
           quality={100}
         />
-        <p className="textHeader">
+        <h1 className="textHeader">
           CARE - CONTABILIDADE{" "}
           <strong className="strongOrange">ACESSÍVEL</strong> E{" "}
           <strong className="strongOrange">RESPONSÁVEL</strong>
-        </p>
+        </h1>
       </header>
 
       {/* first section */}

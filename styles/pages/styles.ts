@@ -24,7 +24,6 @@ export const Container = styled.main`
       font-style: normal;
       font-weight: 900;
       font-size: 24px;
-      line-height: 56px;
       color: #3a89c9;
       .strongOrange {
         color: #f47458;
@@ -35,9 +34,6 @@ export const Container = styled.main`
       .textHeader {
         font-size: 16px;
       }
-    }
-    @media (max-width: 550px) {
-      display: none;
     }
   }
   .mainSection {
@@ -134,7 +130,7 @@ export const Container = styled.main`
 
     }
   }
-`
+`;
 
 export const ThirdSection = styled.section`
   display: flex;
